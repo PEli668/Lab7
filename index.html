@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 7: To-Do List</title>
+    <link rel="stylesheet" href="toDo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:400,800" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cf302114fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1>TO-<span>DO List</span></h1>
+            </div>
+            <ul class="navigation">
+                <a href="index.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <form id="taskForm">
+            <label for="insertTask">Task:</label>
+            <input type="text" id="insertTask" name="insertTask" autocomplete="off">
+            <button id="doSubmit" type="submit"><i class="fa-solid fa-plus fa-flip-horizontal"></i></button>
+        </form>
+
+        <ul id="taskList"></ul>
+    </section>
+
+    <script src="toDo.js"></script>
+</body>
+
+</html>
