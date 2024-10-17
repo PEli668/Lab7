@@ -74,7 +74,8 @@ header {
 .completed {
     text-decoration: line-through;
     color: gray;
-    font-style: italic;
+    transition: all s ease;
+
 }
 
 .delete-icon {
@@ -149,7 +150,7 @@ form input:focus {
     overflow-y: auto;
     border: 1px solid #ccc; 
     margin-right: 5px;
-    cursor: default;
+    cursor:default;
 }
 
 #taskList li {
@@ -159,5 +160,5 @@ form input:focus {
     padding: 10px;
     border-bottom: 1px solid #ccc;
     margin-left: 20px;
-    cursor: default;
+    cursor: d;
 }
